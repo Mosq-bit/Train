@@ -15,39 +15,3 @@ body {
         
     }
 }
-
-
-
-
-
-
-
-.btn {
-    border-radius: 3px;
-    font-weight: 400px;
-    width: 185px;
-    height: 50px;
-    background-color: var(--co-green);
-    color: var(--co-white);
-}
-.btn:hover,
-.btn:focus-visible{
-    /* outline нужно указывать как у border */
-outline: 2px solid var(--co-dark-green);
-}
-.btn__singin{
-    background-color: transparent;
-    color: #000;
-}
-/* <hr class="divider"> */
-.divider {
-    
-    /* будет стараться быть 100% но не больше 420 */
-    /* max-width: 420px;
-    width: 100%; */
-    width: min(110px, 100%);
-
-    margin: 0 auto;
-    height: 1px;
-    background-color: var(--co-black);
-}
