@@ -32,6 +32,10 @@
     width: 180px;
     padding: 0 0 0 15px;
 }
+.form__descr{
+    font-size: 14px;
+    color: var(--co-black);
+}
 
 .search{
     width: 260px;
