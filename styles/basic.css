@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    color: var(--co-grey);
+    background-color: var(--co-white);
+}
+
+.container{
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
+.btn {
+    border-radius: 3px;
+    font-weight: 400px;
+    width: 185px;
+    height: 50px;
+    background-color: var(--co-green);
+    color: var(--co-white);
+}
+.btn:hover,
+.btn:focus-visible{
+    /* outline нужно указывать как у border */
+outline: 2px solid var(--co-dark-green);
+}
+.btn__singin{
+    background-color: transparent;
+    color: #000;
+}
+/* <hr class="divider"> */
+.divider {
+    
+    /* будет стараться быть 100% но не больше 420 */
+    /* max-width: 420px;
+    width: 100%; */
+    width: min(110px, 100%);
+
+    margin: 0 auto;
+    height: 1px;
+    background-color: var(--co-black);
+}

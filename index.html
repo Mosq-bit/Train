@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Мои поездки</title>
+</head>
+
+<body>
+
+    <header class="header__section">
+        <div class="container">
+            <div class="header__wrapper">
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Поездки</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__user-name">
+                    <a href="#" class="header__user-name--link">Заболоцкий К.О</a>
+                    <svg class="user-icon">
+                        <use href="/assets/sprites.svg#user-icon"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="menu__bar-section">
+        <div class="container">
+            <div class="menu__bar">
+                <div class="menu__bar-info">
+                    <p class="menu__bar-info-descr">
+                        Мои поездки
+                    </p>
+                    <button class="menu__bar-info--btn">Оформить поездку</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="filter__section">
+        <div class="container">
+            <div class="filter__form">
+                <form action="mailto:" class="form">
+                    <label for="input-name" id="form__title" class="form__title">Период с:</label>
+
+                    <div class="form__group first">
+                        <input id="input-text-1" type="text" placeholder="Выбрать..." class="form__text">
+                        <img class="img-1" src="/assets/webp/Icon/large/X close.svg" alt="">
+                        <a href="#" class="form__group-link">
+                            <img class="img-2" src="/assets/webp/Icon/large/Calendar.svg" alt="">
+                        </a>
+                    </div>
+
+                    <p class="form__descr">по:</p>
+
+                    <div class="form__group second">
+                        <input id="input-text-2" type="text" placeholder="Выбрать..." class="form__text">
+                        <a href="#" class="form__group-link">
+                            <img class="second-img" src="/assets/webp/Icon/large/Calendar.svg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="form__group search">
+                        <input id="input-text-3" type="text" placeholder="Поиск..." class="form__text search">
+                        <a href="#" class="form__group-link">
+                            <img src="/assets/webp/Icon/large/glass.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="form__group-btn">
+                        <a href="#">
+                            <img src="/assets/webp/Icon/large/Close.svg" alt="">
+                        </a>
+                        <button class="form__btn">Сбросить все</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <section class="cards__section">
+        <div class="container">
+            <div class="cards__wrapper">
+                <div class="card">
+                    <div class="card__number">
+                        <p>№ поездки</p>
+                        <span>000115</span>
+                    </div>
+                    <div class="card__date">
+                        <p>Дата поездки</p>
+                        <span>22.02.2024 - 27.02.2024</span>
+                    </div>
+                    <div class="card__sum-plan">
+                        <p>Сумма, план</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__sum-fact">
+                        <p>Сумма, факт</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__city">
+                        <p>Город</p>
+                        <span>Москва, Ярославль, Ижевск, Владимир</span>
+                    </div>
+                    <div class="card__status">
+                        <p>Статус</p>
+                        <span>Документ</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__number">
+                        <p>№ поездки</p>
+                        <span>000117</span>
+                    </div>
+                    <div class="card__date">
+                        <p>Дата поездки</p>
+                        <span>22.02.2024 - 27.02.2024</span>
+                    </div>
+                    <div class="card__sum-plan">
+                        <p>Сумма, план</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__sum-fact">
+                        <p>Сумма, факт</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__city">
+                        <p>Город</p>
+                        <span>Москва</span>
+                    </div>
+                    <div class="card__status">
+                        <p>Статус</p>
+                        <span>Документ</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__number">
+                        <p>№ поездки</p>
+                        <span>000074</span>
+                    </div>
+                    <div class="card__date">
+                        <p>Дата поездки</p>
+                        <span>22.02.2024 - 27.02.2024</span>
+                    </div>
+                    <div class="card__sum-plan">
+                        <p>Сумма, план</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__sum-fact">
+                        <p>Сумма, факт</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__city">
+                        <p>Город</p>
+                        <span>Кременчуг-Константиновское, Петропавловск-Камчатский, Новосибирск, Волго...</span>
+
+                        <img class="card-info-img" src="/assets/webp/Icon/large/info.svg" alt="">
+                        <p class="overlay">Кременчуг-Константиновское, Петропавловск-Камчатский, Новосибирск,
+                            Волгоград, Саратов</p>
+
+
+                    </div>
+                    <div class="card__status">
+                        <p>Статус</p>
+                        <span>Документ</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__number">
+                        <p>№ поездки</p>
+                        <span>000117</span>
+                    </div>
+                    <div class="card__date">
+                        <p>Дата поездки</p>
+                        <span>22.02.2024 - 27.02.2024</span>
+                    </div>
+                    <div class="card__sum-plan">
+                        <p>Сумма, план</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__sum-fact">
+                        <p>Сумма, факт</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__city">
+                        <p>Город</p>
+                        <span>Москва</span>
+                    </div>
+                    <div class="card__status">
+                        <p>Статус</p>
+                        <span>Документ</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__number">
+                        <p>№ поездки</p>
+                        <span>000117</span>
+                    </div>
+                    <div class="card__date">
+                        <p>Дата поездки</p>
+                        <span>22.02.2024 - 27.02.2024</span>
+                    </div>
+                    <div class="card__sum-plan">
+                        <p>Сумма, план</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__sum-fact">
+                        <p>Сумма, факт</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__city">
+                        <p>Город</p>
+                        <span>Москва</span>
+                    </div>
+                    <div class="card__status">
+                        <p>Статус</p>
+                        <span>Документ</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__number">
+                        <p>№ поездки</p>
+                        <span>000117</span>
+                    </div>
+                    <div class="card__date">
+                        <p>Дата поездки</p>
+                        <span>22.02.2024 - 27.02.2024</span>
+                    </div>
+                    <div class="card__sum-plan">
+                        <p>Сумма, план</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__sum-fact">
+                        <p>Сумма, факт</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__city">
+                        <p>Город</p>
+                        <span>Москва</span>
+                    </div>
+                    <div class="card__status">
+                        <p>Статус</p>
+                        <span>Документ</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__number">
+                        <p>№ поездки</p>
+                        <span>000117</span>
+                    </div>
+                    <div class="card__date">
+                        <p>Дата поездки</p>
+                        <span>22.02.2024 - 27.02.2024</span>
+                    </div>
+                    <div class="card__sum-plan">
+                        <p>Сумма, план</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__sum-fact">
+                        <p>Сумма, факт</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__city">
+                        <p>Город</p>
+                        <span>Москва</span>
+                    </div>
+                    <div class="card__status">
+                        <p>Статус</p>
+                        <span>Документ</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__number">
+                        <p>№ поездки</p>
+                        <span>000117</span>
+                    </div>
+                    <div class="card__date">
+                        <p>Дата поездки</p>
+                        <span>22.02.2024 - 27.02.2024</span>
+                    </div>
+                    <div class="card__sum-plan">
+                        <p>Сумма, план</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__sum-fact">
+                        <p>Сумма, факт</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__city">
+                        <p>Город</p>
+                        <span>Москва</span>
+                    </div>
+                    <div class="card__status">
+                        <p>Статус</p>
+                        <span>Документ</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__number">
+                        <p>№ поездки</p>
+                        <span>000117</span>
+                    </div>
+                    <div class="card__date">
+                        <p>Дата поездки</p>
+                        <span>22.02.2024 - 27.02.2024</span>
+                    </div>
+                    <div class="card__sum-plan">
+                        <p>Сумма, план</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__sum-fact">
+                        <p>Сумма, факт</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__city">
+                        <p>Город</p>
+                        <span>Москва</span>
+                    </div>
+                    <div class="card__status">
+                        <p>Статус</p>
+                        <span>Документ</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__number">
+                        <p>№ поездки</p>
+                        <span>000117</span>
+                    </div>
+                    <div class="card__date">
+                        <p>Дата поездки</p>
+                        <span>22.02.2024 - 27.02.2024</span>
+                    </div>
+                    <div class="card__sum-plan">
+                        <p>Сумма, план</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__sum-fact">
+                        <p>Сумма, факт</p>
+                        <span>29 400,00</span>
+                    </div>
+                    <div class="card__city">
+                        <p>Город</p>
+                        <span>Москва</span>
+                    </div>
+                    <div class="card__status">
+                        <p>Статус</p>
+                        <span>Документ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

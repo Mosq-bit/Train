@@ -1,0 +1,33 @@
+.menu__bar-section {
+}
+.menu__bar {
+}
+.menu__bar-info {
+    height: 56px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 24px;
+}
+.menu__bar-info-descr {
+    font-size: 16px;
+    font-weight: 600;
+}
+.menu__bar-info--btn {
+    position: relative;
+    width: 178px;
+    height: 24px;
+
+    background-color: var(--co-light-blue);
+    border-radius: 20px;
+    color: var(--co-white);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.menu__bar-info--btn:after{
+    position: absolute;
+    content: '+';
+    top: 2px;
+    left: 10px;
+}

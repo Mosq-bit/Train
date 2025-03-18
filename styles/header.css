@@ -1,0 +1,54 @@
+.header__section {
+    box-shadow: 0px 6px 8px 0px rgba(34, 60, 80, 0.12);
+}
+.header__wrapper {
+    height: 65px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav {
+    width: 438px;
+    
+    
+}
+.header__nav-list {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.header__nav-item {
+
+}
+.header__nav-link {
+    color: var(--co-dark-grey);
+    padding: 19px 0;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all .1s ease-in;
+
+    
+}
+.header__nav-link:hover{
+    border-bottom: 1px solid #4094F7;
+}
+
+
+.header__user-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+.header__user-name--link {
+    color: var(--co-blue);
+    font-size: 14px;
+    border-bottom: 1px dashed #0E73F6;
+}
+
+.user-icon{
+    width: 16px;
+    height: 16px;
+}
+
