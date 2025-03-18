@@ -13,7 +13,7 @@
 }
 
 .card {
-    max-width: 1416px;
+    width: 1416px;
     height: 80px;
 
     padding: 0 24px;
