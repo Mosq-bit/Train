@@ -26,12 +26,6 @@
     border-radius: 6px;
     
 }
-
-.form__text{
-    height: 32px;
-    width: 180px;
-    padding: 0 0 0 15px;
-}
 .form__title{
     font-size: 14px;
     color: var(--co-black);
@@ -40,12 +34,23 @@
     font-size: 14px;
     color: var(--co-black);
 }
+.first{
+    .img-1{
+        padding: 0px 2px 0 0;
+    }
+}
+
+.form__text{
+    height: 32px;
+    width: 180px;
+    padding: 0 0 0 15px;
+}
 
 .search{
     width: 260px;
 
     img{
-        padding: 0 8px 0 0;
+        margin:0px 14px 0 0px;
     }
 }
 
