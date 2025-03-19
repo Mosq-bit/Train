@@ -73,18 +73,19 @@
 .card__sum-fact {}
 
 .card__city {
-    position: relative;
-    width: 700px;
+
+    max-width: 700px;
 
     
 }
 .overlay{
-    position: absolute;
-    display: none;
-    right: -120px;
+    position: relative;
+    right: -82px;
     top: -46px;
 }
 .overlay__text {
+    position: absolute;
+    display: none;
     padding: 5px 5px 5px 5px;
     width: 219px;
     height: 62px;
@@ -95,14 +96,15 @@
    
 }
 
-.card__city:hover .overlay{
+.overlay:hover .overlay__text{
     display: block;
 }
 .card-info-arrow{
     position: absolute;
-    top: 61px;
+    top: 63px;
     right: 204px;
 }
+
 
 .card__status {
     display: flex;
