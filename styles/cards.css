@@ -37,13 +37,13 @@
 
 }
 
-@media (max-width:1290px) {
+/* @media (max-width:1290px) {
     .card {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         max-width: 1290px;
         gap: 18px;
-    }
+    } */
 
     .card__city {
 
@@ -100,7 +100,7 @@
 }
 .card-info-arrow{
     position: absolute;
-    top: 63px;
+    top: 61px;
     right: 204px;
 }
 
