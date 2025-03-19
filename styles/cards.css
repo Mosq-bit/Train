@@ -81,7 +81,7 @@
 .overlay{
     position: absolute;
     display: none;
-    right: -90px;
+    right: -120px;
     top: -46px;
 }
 .overlay__text {
