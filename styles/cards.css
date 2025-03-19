@@ -71,6 +71,9 @@
 .card__sum-plan {}
 
 .card__sum-fact {}
+.card__city {
+    width: 700px;
+}
 .overlay__wrapper{
     display: inline-block;
     position: relative;
