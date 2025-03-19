@@ -37,7 +37,7 @@
 
 }
 
- @media (max-width:1290px) {
+@media (max-width:1290px) {
     .card {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
@@ -71,6 +71,7 @@
 .card__sum-plan {}
 
 .card__sum-fact {}
+
 .card__city {
     width: 700px;
 }
@@ -102,6 +103,7 @@
     top: 61px;
     right: 204px;
 }
+
 .card__status {
     display: flex;
     flex-direction: column;
