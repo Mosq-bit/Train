@@ -37,13 +37,13 @@
 
 }
 
-/* @media (max-width:1290px) {
+ @media (max-width:1290px) {
     .card {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         max-width: 1290px;
         gap: 18px;
-    } */
+    }
 
     .card__city {
 
@@ -81,7 +81,7 @@
 .overlay{
     position: absolute;
     display: none;
-    right: -82px;
+    right: -90px;
     top: -46px;
 }
 .overlay__text {
