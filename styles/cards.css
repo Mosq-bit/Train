@@ -76,12 +76,15 @@
     position: relative;
     width: 700px;
 
+    
 }
-
-
-
-.overlay {
+.overlay{
     position: absolute;
+    display: none;
+    right: -82px;
+    top: -46px;
+}
+.overlay__text {
     padding: 5px 5px 5px 5px;
     width: 219px;
     height: 62px;
@@ -89,35 +92,17 @@
     border-radius: 4px;
     font-size: 12px;
     color: var(--co-white);
-    right: -125px;
-    top: -46px;
-
-    display: none;
+   
 }
 
-.card__city:hover .overlay
-{
-    
+.card__city:hover .overlay{
     display: block;
 }
-
-
-.card-info-img {}
-
 .card-info-arrow{
-    display: none;    
     position: absolute;
-    top: 14px;
-    right: 84px;
-
-    
+    top: 63px;
+    right: 204px;
 }
-
-.card-info-arrow:hover{
-    display: block;
-}
-
-
 
 .card__status {
     display: flex;
