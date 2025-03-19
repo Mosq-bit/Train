@@ -71,19 +71,18 @@
 .card__sum-plan {}
 
 .card__sum-fact {}
-.card__city {
-    width: 700px;
+.overlay__wrapper{
     display: inline-block;
     position: relative;
     
 }
 .overlay{
-    position: absolute;
-    right: -93px;
-    top: -46px;
     display: none;
+    position: absolute;
+    right: -202px;
+    top: -67px;
 }
-.card__city:hover .overlay{
+.overlay__wrapper:hover .overlay{
     display: block;
 }
 .overlay__text {
@@ -95,15 +94,11 @@
     font-size: 12px;
     color: var(--co-white);
 }
-
-
 .card-info-arrow{
     position: absolute;
     top: 61px;
     right: 204px;
 }
-
-
 .card__status {
     display: flex;
     flex-direction: column;
